@@ -1,19 +1,34 @@
+import React from 'react';
 import './App.scss';
 import CitySelector from './components/CitySelector.jsx';
-import WeatherCard from './components/WeatherCard.jsx'
+import UseFetch from './hooks/UseFetch.jsx';
+import { API_KEY, API_BASE_URL } from './apis/config.js';
+import WeatherList from './components/WeatherList.jsx';
 
-function App() {
+const App = () => {
+  // destructure the returned values
+  const {data, error, isLoading, setUrl} = UseFetch();
+
+  // error handling and loading
+  const getContent = () => {
+    if(error) return <h2>Error when fetching: {error}</h2>;
+    if(!data && isLoading) return <h2>LOADING...</h2>;
+    if(!data) return null;
+    return <WeatherList weathers={data.list} />
+  }
+
   return (
-    <div className="App">
-      <CitySelector/>
-      {/* dt is in unix-seconds but javascript uses milliseconds, multiply with 1000 */}
-      {/* <WeatherCard 
-        dt={1602104400 * 1000}
-        temp_min="22.67"
-        temp_max="24.39"
-        main="Clear"
-        icon="01d"
-      /> */}
+    <div className="app">
+      <h1>Weather Buddy</h1>
+      <CitySelector
+        onSearch={(city) => setUrl(`${API_BASE_URL}/data/2.5/forecast?q=${city}&appid=${API_KEY}&units=metric`)}
+      />
+
+      {/* conditionally render */}
+      {
+        !data && !error && !isLoading? <h2>Seach for city.</h2> : null
+      }
+      {getContent()}
     </div>
   );
 }
