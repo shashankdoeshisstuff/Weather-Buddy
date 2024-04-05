@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Weather-Buddy/static/css/main.14b67bdf.css",
+    "main.js": "/Weather-Buddy/static/js/main.8169df7c.js",
+    "static/js/453.28524f5e.chunk.js": "/Weather-Buddy/static/js/453.28524f5e.chunk.js",
+    "index.html": "/Weather-Buddy/index.html",
+    "main.14b67bdf.css.map": "/Weather-Buddy/static/css/main.14b67bdf.css.map",
+    "main.8169df7c.js.map": "/Weather-Buddy/static/js/main.8169df7c.js.map",
+    "453.28524f5e.chunk.js.map": "/Weather-Buddy/static/js/453.28524f5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14b67bdf.css",
+    "static/js/main.8169df7c.js"
+  ]
+}
