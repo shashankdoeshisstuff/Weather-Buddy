@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import CitySelector from './components/CitySelector.jsx';
 import UseFetch from './hooks/UseFetch.jsx';
-import { API_KEY, API_BASE_URL } from './apis/config.js';
+import { API_KEY, API_BASE_URL } from '..config.js';
 import WeatherList from './components/WeatherList.jsx';
 
 const App = () => {

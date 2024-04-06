@@ -72,7 +72,7 @@
     }
 }
 
-$layout-breakpoint-small: 960px;
+$layout-breakpoint-small: 980px;
     // for mobile
     @media (max-width: $layout-breakpoint-small) {
         // Weathers List
@@ -83,7 +83,6 @@ $layout-breakpoint-small: 960px;
         .weather-card {
             grid-template-columns: 1fr 4fr;
             
-
             .emphasis {
                 font-size: 150%;
             }
