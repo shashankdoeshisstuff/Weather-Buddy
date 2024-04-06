@@ -9,3 +9,5 @@ Visit Webapp - (https://shashankdoeshisstuff.github.io/Weather-Buddy/)
 
 ## about
 this is a weather web application which fetches the weather report for the particular city user search for, by using openweather's API.
+
+this web is build using Reactjs and scss for styling.
