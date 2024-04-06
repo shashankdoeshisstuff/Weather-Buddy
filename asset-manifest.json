@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Weather-Buddy/static/css/main.14b67bdf.css",
-    "main.js": "/Weather-Buddy/static/js/main.e3c5e0a2.js",
+    "main.js": "/Weather-Buddy/static/js/main.987b52c3.js",
     "static/js/453.28524f5e.chunk.js": "/Weather-Buddy/static/js/453.28524f5e.chunk.js",
     "index.html": "/Weather-Buddy/index.html",
     "main.14b67bdf.css.map": "/Weather-Buddy/static/css/main.14b67bdf.css.map",
-    "main.e3c5e0a2.js.map": "/Weather-Buddy/static/js/main.e3c5e0a2.js.map",
+    "main.987b52c3.js.map": "/Weather-Buddy/static/js/main.987b52c3.js.map",
     "453.28524f5e.chunk.js.map": "/Weather-Buddy/static/js/453.28524f5e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14b67bdf.css",
-    "static/js/main.e3c5e0a2.js"
+    "static/js/main.987b52c3.js"
   ]
 }
