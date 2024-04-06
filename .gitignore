@@ -13,6 +13,7 @@
 
 # api & api key
 /src/apis/config.js
+/.env
 
 # misc
 .DS_Store
